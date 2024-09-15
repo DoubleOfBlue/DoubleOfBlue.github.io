@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Random Multiplication</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="web.js"></script>
+    </head>
+    <body>
+        <div class="app">
+            <h1 class="title">Random Multiplication</h1>
+            <div class="show-m">
+                <p class="show_m" id="num1" style="text-align: right;">0</p>
+                <p class="show_m" style="text-align: center;">x</p>
+                <p class="show_m" id="num2">0</p>
+            </div>
+            <div class="buttons">
+                <button class="btn-primary" id="btn-reveal" onclick="showAnswer()" disabled=true>Reveal</button>
+                <button class="btn-primary" id="btn-random" onclick="newSet()">New Set</button>
+            </div>
+            <h2 class="title-s">Answer</h2>
+            <p id="answer-text">0</p>
+        </div>
+    </body>
+</html>
